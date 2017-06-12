@@ -1,0 +1,81 @@
+.index{
+  user-select:none;
+  background-color:#f0f4f7;
+  .header{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 74px;
+    z-index: $header-zIndex;
+    -webkit-box-shadow: 0 0 3px 3px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 0 3px 3px rgba(0,0,0,.1);
+    box-shadow: 0 0 3px 3px rgba(0,0,0,.1);
+    .info{
+      width: 100%;
+      height: 44px;
+      background-color: #DEB887;
+      position: relative;
+      .icon{
+        position: absolute;
+        top: 0;
+        left:15px;
+        width: 40px;
+        height: 44px;
+      }
+      .text{
+        text-align: center;
+        color: #fff;
+        font-size: 18px;
+        line-height: 44px;
+      }
+    }
+    .toolbar{
+      width: 100%;
+      height: 30px;
+      background-color: #CDC9A5;
+      position: relative;
+      .tab-list{
+        width:100%;
+        height: 100%;
+        padding-left: 40px;
+        list-style: none;
+        .tab-item{
+          float: left;
+          line-height: 30px;
+          font-size: 14px;
+          padding:0 15px;
+          cursor: pointer;;
+          &:hover{
+            background-color: #CDC0B0;
+          }
+          &.active{
+            background-color: white;
+          }
+        }
+      }
+    }
+  }
+
+  .editor{
+    background-color: white;
+    width: 1024px;
+    min-height: 1200px;
+    text-align: center;
+    margin: 93px auto;
+    box-shadow: 0 0 3px 2px rgba(0,0,0,.1);
+    padding:60px;
+    .title{
+      margin:0 auto;
+    }
+    .container {
+      width: 904px;
+      margin: 0 auto;
+      padding-left:0;
+      .edui-editor {
+        border:none;
+      }
+    }
+  }
+}
+

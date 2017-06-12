@@ -1,0 +1,56 @@
+<div class="fragment edit">
+    <ul class="function-list">
+        <li class="function-item">
+            <div class="caption">历史记录</div>
+            <div class="pane content-pane">
+                <div class="category">
+                    <div class="function undo" ng-click="undo()">
+                        <em class="iconfont icon-undo icon"></em>
+                        <p class="text">撤销</p>
+                    </div>
+                    <div class="function redo" ng-click="redo()">
+                        <em class="iconfont icon-redo icon"></em>
+                        <p class="text">恢复</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="function-item">
+            <div class="caption">剪切板</div>
+            <div class="pane content-pane">
+                <div class="category">
+                    <div class="function copy" ng-click="copy()">
+                        <em class="iconfont icon-copy icon"></em>
+                        <p class="text">复制</p>
+                    </div>
+                    <div class="function cut" ng-click="cut()">
+                        <em class="iconfont icon-cut icon"></em>
+                        <p class="text">剪切</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <div class="separator"></div>
+    <div class="font-pane">
+        <div class="btn-group">
+            <div class="btn btn-default">
+                <em class="iconfont icon-bold icon"></em>
+            </div>
+            <div class="btn btn-default">
+                <em class="iconfont icon-italic icon"></em>
+            </div>
+            <div class="btn btn-default">
+                <em class="iconfont icon-underline icon"></em>
+            </div>
+        </div>
+        <div class="btn-group">
+            <div class="btn btn-default">
+                <em class="iconfont icon-font-smaller icon"></em>
+            </div>
+            <div class="btn btn-default">
+                <em class="iconfont icon-font-bigger icon"></em>
+            </div>
+        </div>
+    </div>
+</div>

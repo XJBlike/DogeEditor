@@ -1,0 +1,30 @@
+.index .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px; }
+  .index .header .info {
+    width: 100%;
+    height: 44px;
+    background-color: #16742B;
+    position: relative; }
+    .index .header .info .icon {
+      position: absolute;
+      top: 0;
+      left: 10px;
+      width: 40px;
+      height: 44px; }
+    .index .header .info .text {
+      text-align: center;
+      color: #fff;
+      font-size: 22px;
+      line-height: 44px; }
+.index .title {
+  margin: 0 auto; }
+.index .container {
+  width: 1024px;
+  height: 800px;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=all.css.map */

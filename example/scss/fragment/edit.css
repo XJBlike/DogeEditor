@@ -1,0 +1,15 @@
+.edit .function-list .function-item .pane .category {
+  float: left;
+  width: 40px; }
+  .edit .function-list .function-item .pane .category .undo, .edit .function-list .function-item .pane .category .redo {
+    float: left; }
+    .edit .function-list .function-item .pane .category .undo .icon, .edit .function-list .function-item .pane .category .redo .icon {
+      font-size: 12px;
+      float: left; }
+      .edit .function-list .function-item .pane .category .undo .icon:before, .edit .function-list .function-item .pane .category .redo .icon:before {
+        color: #FFEFD5; }
+    .edit .function-list .function-item .pane .category .undo .text, .edit .function-list .function-item .pane .category .redo .text {
+      float: left;
+      font-size: 12px; }
+
+/*# sourceMappingURL=edit.css.map */

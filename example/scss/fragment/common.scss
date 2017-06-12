@@ -1,0 +1,71 @@
+.fragment{
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  box-shadow: 0 1px 2px 3px rgba(0,0,0,.1);
+  .function-list {
+    width: 100%;
+    height: 100%;
+    padding: 10px 0 10px 30px;
+    list-style: none;
+    .function-item{
+      height: 80px;
+      float: left;
+      min-width: 60px;
+      border: $border;
+      border-radius: 4px;
+      position: relative;
+      margin-right: 20px;
+      &:last-child{
+        margin-right:0;
+      }
+      .caption{
+        width: 100%;
+        height: 24px;
+        text-align: center;
+        font-size: 12px;
+        line-height: 24px;
+        border-bottom: $border;
+        position: absolute;
+        top:0;
+        left:0;
+        color: #666;
+      }
+      .pane{
+        cursor: pointer;
+        &:active{
+          background-color: #f8f8f8;
+        }
+      }
+      .img-pane {
+        position: absolute;
+        top: 24px;
+        left: 0;
+        width: 58px;
+        height: 54px;
+        padding: 10px 12px;
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .content-pane {
+        width:100%;
+        height: 56px;
+        position: absolute;
+        top: 24px;
+        left:0;
+      }
+    }
+  }
+}
+.separator {
+  width: 1px;
+  height: 80px;
+  float:left;
+  padding:10px 0;
+  background-color: #eee;
+  position: relative;
+  top:10px;
+  margin-right: 10px;
+}
